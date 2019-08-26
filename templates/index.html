@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+    <style rel="stylesheet">
+        .big-checkbox {width: 20px; height: 20px;}
+    </style>
+
+    <title>Welcome Alfa Guria</title>
+</head>
+<body>
+<div class="container-fluid">
+
+    <form action="{{ url_for('showOutput') }}" method="post">
+        <div class="form-group">
+            <label><input type="checkbox" class="big-checkbox" name='cat' value="5122348031" > Appliances</label><br>
+            <label><input type="checkbox" class="big-checkbox" name='cat' value="1380375031" >  Artwork</label><br>
+            <label><input type="checkbox" class="big-checkbox" name='cat' value="1571274031" >  Baby Products</label><br>
+            <label><input type="checkbox" class="big-checkbox" name='cat' value="1355016031" > Beauty</label><br>
+            <label><input type="checkbox" class="big-checkbox" name='cat' value="976389031" >  Books</label><br>
+            <label><input type="checkbox" class="big-checkbox" name='cat' value="5866078031" >  Business Industrial & Scientific Supplies</label><br>
+            <label><input type="checkbox" class="big-checkbox" name='cat' value="1388977031" > Cameras & Photography</label><br>
+            <label><input type="checkbox" class="big-checkbox" name='cat' value="4772060031" >  Car & Motorbike Accessories</label><br>
+            <label><input type="checkbox" class="big-checkbox" name='cat' value="1953148031" >  Clothing (Baby)</label><br>
+            <label><input type="checkbox" class="big-checkbox" name='cat' value="1967851031" > Clothing (Boys')</label><br>
+            <label><input type="checkbox" class="big-checkbox" name='cat' value="1967936031" >  Clothing (Girls')</label><br>
+            <label><input type="checkbox" class="big-checkbox" name='cat' value="1968024031" >  Clothing (Men's)</label><br>
+            <label><input type="checkbox" class="big-checkbox" name='cat' value="1953602031" > Clothing (WoMen's)</label><br>
+            <label><input type="checkbox" class="big-checkbox" name='cat' value="1571271031" >  Clothing & Accessories</label><br>
+            <label><input type="checkbox" class="big-checkbox" name='cat' value="1375344031" >  Computer Components</label><br>
+            <label><input type="checkbox" class="big-checkbox" name='cat' value="976392031" > Computers & Accessories</label><br>
+            <label><input type="checkbox" class="big-checkbox" name='cat' value="1375393031" > Data Storage & External Devices </label><br>
+            <label><input type="checkbox" class="big-checkbox" name='cat' value="1389177031" > DSLRs</label><br>
+            <label><input type="checkbox" class="big-checkbox" name='cat' value="976419031" >  Electronics </label><br>
+            <label><input type="checkbox" class="big-checkbox" name='cat' value="1388867031" >  Electronics Accessories</label><br>
+            <label><input type="checkbox" class="big-checkbox" name='cat' value="1380441031" > Furniture </label><br>
+            <label><input type="checkbox" class="big-checkbox" name='cat' value="2454175031" > Garden & Outdoors</label><br>
+            <label><input type="checkbox" class="big-checkbox" name='cat' value="2454178031" > Grocery </label><br>
+            <label><input type="checkbox" class="big-checkbox" name='cat' value="1983338031" > Handbags</label><br>
+            <label><input type="checkbox" class="big-checkbox" name='cat' value="1388921031" > Headphones </label><br>
+            <label><input type="checkbox" class="big-checkbox" name='cat' value="1350384031" > Health & Personal Care </label><br>
+            <label><input type="checkbox" class="big-checkbox" name='cat' value="1380374031" > Home & Decor</label><br>
+            <label><input type="checkbox" class="big-checkbox" name='cat' value="976442031" >  Home & Kitchen</label><br>
+            <label><input type="checkbox" class="big-checkbox" name='cat' value="1389335031" > Home Audio & Accessories </label><br>
+            <label><input type="checkbox" class="big-checkbox" name='cat' value="1389375031" >  Home Entertainment Systems</label><br>
+            <label><input type="checkbox" class="big-checkbox" name='cat' value="1380442031" > Home Furnishing</label><br>
+            <label><input type="checkbox" class="big-checkbox" name='cat' value="3704992031" >  Home Improvement</label><br>
+            <label><input type="checkbox" class="big-checkbox" name='cat' value="1380510031" >  Home Storage & Organization</label><br>
+            <label><input type="checkbox" class="big-checkbox" name='cat' value="1374515031" > Household Supplies</label><br>
+            <label><input type="checkbox" class="big-checkbox" name='cat' value="1380485031" > Indoor Lighting </label><br>
+            <label><input type="checkbox" class="big-checkbox" name='cat' value="1951048031" >  Jewellery</label><br>
+            <label><input type="checkbox" class="big-checkbox" name='cat' value="1375412031" > Keyboards, Mice & Input Devices</label><br>
+            <label><input type="checkbox" class="big-checkbox" name='cat' value="1634753031" > Kindle eBooks </label><br>
+            <label><input type="checkbox" class="big-checkbox" name='cat' value="5925789031" > Kitchen & Dining </label><br>
+            <label><input type="checkbox" class="big-checkbox" name='cat' value="1375424031" > Laptops </label><br>
+            <label><input type="checkbox" class="big-checkbox" name='cat' value="2454169031" >Luggage & Bags </label><br>
+            <label><input type="checkbox" class="big-checkbox" name='cat' value="1389402031" >  Mobile Accessories</label><br>
+            <label><input type="checkbox" class="big-checkbox" name='cat' value="1389432031" >  Mobiles</label><br>
+            <label><input type="checkbox" class="big-checkbox" name='cat' value="976445031" >  Music</label><br>
+            <label><input type="checkbox" class="big-checkbox" name='cat' value="3677697031" > Musical Instruments</label><br>
+            <label><input type="checkbox" class="big-checkbox" name='cat' value="1375427031" >  Networking Devices</label><br>
+            <label><input type="checkbox" class="big-checkbox" name='cat' value="2454172031" >  Office & School Supplies</label><br>
+            <label><input type="checkbox" class="big-checkbox" name='cat' value="1374594031" >  Personal Care</label><br>
+            <label><input type="checkbox" class="big-checkbox" name='cat' value="2454181031" > Pet Supplies</label><br>
+            <label><input type="checkbox" class="big-checkbox" name='cat' value="1983320031" >  Shoe Care & Accessories</label><br>
+            <label><input type="checkbox" class="big-checkbox" name='cat' value="1983518031" >  Shoes (Men's)</label><br>
+            <label><input type="checkbox" class="big-checkbox" name='cat' value="1983578031" > Shoes (Women's)</label><br>
+            <label><input type="checkbox" class="big-checkbox" name='cat' value="976451031" >  Software</label><br>
+            <label><input type="checkbox" class="big-checkbox" name='cat' value="1389365031" >  Speakers</label><br>
+            <label><input type="checkbox" class="big-checkbox" name='cat' value="1984443031" > Sporting Goods</label><br>
+            <label><input type="checkbox" class="big-checkbox" name='cat' value="1967862031" >  Sunglasses (Boys')</label><br>
+            <label><input type="checkbox" class="big-checkbox" name='cat' value="1968036031" >  Sunglasses (Men's)</label><br>
+            <label><input type="checkbox" class="big-checkbox" name='cat' value="1968401031" >  Sunglasses (Women's)</label><br>
+            <label><input type="checkbox" class="big-checkbox" name='cat' value="1389396031" > Televisions</label><br>
+            <label><input type="checkbox" class="big-checkbox" name='cat' value="1350380031" >  Toys</label><br>
+            <label><input type="checkbox" class="big-checkbox" name='cat' value="976460031" >  Video Games</label><br>
+            <label><input type="checkbox" class="big-checkbox" name='cat' value="1350387031" > Watches</label><br>
+            <label><input type="checkbox" class="big-checkbox" name='cat' value="2563506031" >  Watches (Kids')</label><br>
+            <label><input type="checkbox" class="big-checkbox" name='cat' value="2563504031" >  Watches (Men's)</label><br>
+            <label><input type="checkbox" class="big-checkbox" name='cat' value="2563505031" > Watches (Women's)</label><br>
+            <br><br><br><br>
+
+            <h3>Deal Type</h3>
+            <label><input type='radio' name='deal' value="LIGHTNING_DEAL">Lightning Deal</label><br>
+            <label><input type='radio' name='deal' value="DEAL_OF_THE_DAY">Deal Of The Day</label><br>
+            <label><input type='radio' name='deal' value="BEST_DEAL">Savings and Sales</label><br>
+            <br><br><br>
+
+            <h3>Ratings</h3>
+            <label><input type='radio' name='rating' value="4">Minimum 4 Star</label><br>
+            <label><input type='radio' name='rating' value="3">Minimum 3 Star</label><br>
+            <label><input type='radio' name='rating' value="2">Minimum 2 Star</label><br>
+            <label><input type='radio' name='rating' value="1">Minimum 1 Star</label><br>
+
+            <br><br><br>
+            <input type="submit" >
+        </div>
+    </form>
+</div>
+</body>
+</html>
